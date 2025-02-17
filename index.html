@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Blocky Animal</title>
+  </head>
+
+  <style type="text/css">
+
+
+canvas{
+
+padding-left: 400px;
+padding-top: 150px;
+   
+
+
+
+}
+h3{
+  padding-left: 400px;
+  color: purple;
+}
+h4{
+  padding-left: 400px; 
+  color: purple;
+}
+
+button{
+
+  margin-left: 700px;
+  background-color: purple;
+  color: white;
+  font-size: 40px;
+}
+#numbd{
+  padding-left: 400px;
+  color: purple;
+}
+#status{
+  padding-left: 400px;
+  font-size: 30px;
+  color: purple;
+}
+  </style>
+
+  <body onload="main()">
+    <body style="background-color:rgb(249, 160, 255);"></body>
+    <canvas id="webgl" width="600" height="600">
+    Please use a browser that supports "canvas"
+    </canvas>
+    
+    <form>
+      <div id="numbd"></div>
+      <div id = "status"></div>
+      
+ 
+
+
+<div>
+  <h3>Help find garfield, he is lost,scared, and stuck inside a building. Click the button when you find him. 
+</div>
+<div>
+  <h4>Use up arrow key to move him backwards, down to move him forwards, left to move him left, right to move him right</h3>
+</div>
+
+<button type="button" id = "button">I found garfield</button>
+<div id = "status"></div>
+
+
+
+
+   
+      
+    </form> 
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src = "lib/cuon-matrix-cse160.js"></script>
+    <script src ="blocky_world.js"></script>
+    <script src = "camera.js"></script>
+    <script src = "triangle.js"></script>
+
+    <script src = "Cube.js"></script>
+
+    <script src = "Cylinder.js"></script>
+   <script src = "Pyramid.js"></script>
+    
+    
+    
+    
+  </body>
+</html>
